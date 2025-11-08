@@ -1,7 +1,7 @@
 import React from "react"
 import {
   AiOutlineGithub,
-  AiOutlineTwitter,
+  AiOutlineInstagram,
   AiOutlineLinkedin,
   AiOutlineYoutube,
 } from "react-icons/ai"
@@ -15,25 +15,25 @@ const Footer = () => {
           © 2025 Kelvin Jonathan Setiawan<a href="/" className="hover:underline"></a>
         </div>
         <div className="flex flex-row items-center justify-center space-x-2 mb-1">
-          <a href="https://github.com/hqasmei" rel="noreferrer" target="_blank">
+          <a href="https://github.com/KWasteds" rel="noreferrer" target="_blank">
             <AiOutlineGithub
               className="hover:-translate-y-1 transition-transform cursor-pointer text-neutral-500 dark:text-neutral-100"
               size={30}
             />
           </a>
           <a
-            href="https://twitter.com/hqasmei"
+            href="https://www.instagram.com/kelvinjo2008/"
             rel="noreferrer"
             target="_blank"
           >
-            <AiOutlineTwitter
+            <AiOutlineInstagram
               className="hover:-translate-y-1 transition-transform cursor-pointer text-neutral-500 dark:text-neutral-100"
               size={30}
             />
           </a>
 
           <a
-            href="https://www.linkedin.com/in/hosnaqasmei/"
+            href="https://www.linkedin.com/in/kelvin-jonathan-setiawan/"
             rel="noreferrer"
             target="_blank"
           >
@@ -42,8 +42,8 @@ const Footer = () => {
               size={30}
             />
           </a>
-          <a
-            href="https://www.youtube.com/channel/UCQBMkSDgbxDb8usMeXmOZyA"
+          {/* <a
+            href=""
             rel="noreferrer"
             target="_blank"
           >
@@ -51,7 +51,7 @@ const Footer = () => {
               className="hover:-translate-y-1 transition-transform cursor-pointer text-neutral-500 dark:text-neutral-100"
               size={30}
             />
-          </a>
+          </a> */}
         </div>
       </div>
     </footer>
